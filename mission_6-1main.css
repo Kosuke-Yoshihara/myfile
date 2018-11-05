@@ -1,0 +1,129 @@
+
+
+div.title{
+   position:relative;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   font-family:HG正楷書体-PRO;
+   font-size:300%;
+   width:100%;
+   height:90px;   
+   background-color:#DCC2FF;
+   border-top:solid 7px #7B3CFF;
+   border-bottom:solid 7px #7B3CFF;
+   margin-bottom:70px;
+   box-sizing:border-box;
+}
+
+
+div.migi{
+   position:absolute;
+   top:90px;
+   left:70%;
+   width:30% ;
+   min-width:300px ;
+   height:100% ;
+   text-align:center;
+   border-left:double #005FFF;
+   box-sizing:border-box;
+   background-color:#C2EEFF;
+}
+	.migi input.fileform{
+		position:absolute;
+	    left:100px;
+	    top:140px;
+	}
+
+    .migi input.submit{
+		position:absolute;
+	    left:100px;
+	    top:180px;
+	}
+
+div.namedate{
+	width:25%;
+	min-width:25%;
+}
+
+div.filecomment{
+   position:relative;
+   left:20px;
+   width:65vw ;
+   height:23vw ;
+   min-width:700px;
+   min-height:240px;
+   margin-bottom:80px;
+ /*  background-color:lime */
+}
+
+
+	div.file{
+	   position:absolute;
+	   top:0;
+	   left:0;
+	   width: 45% ;
+	   height: 100% ;
+/*	   background-color:blue;  */
+	}
+		img{
+		   width:auto;
+		   height:auto;
+		   max-width:100%;
+		   max-height:88%;
+		}
+		video{
+		   width:auto ;
+		   height:auto ;
+		   max-width:100% ;
+		   max-height:88% ;
+		}
+
+		div.file input.comment{
+		   position:absolute;
+		   bottom:0;
+		}
+
+		div.file input.submit{
+		   position:absolute;
+		   bottom:0;
+		   left:180px;
+		}
+
+	div.comment{
+	   position:absolute;
+	   top:-10% ;
+	   right:0 ;
+	   width:45% ;
+	   height:110% ;
+	   overflow-y:scroll;
+	   border: solid 3px #005FFF;
+	   font-size:85%;
+       background-color:white;
+       box-sizing:border-box;
+       word-wrap: break-word;
+	}
+
+    	div.comment p{
+			position:absolute;
+			margin:0;
+			background-color:#005FFF;
+			color:white;
+			width:100%;
+			text-align:center;
+		}
+
+
+
+
+
+
+body{
+	position:relative;
+	overflow:scroll;
+	min-width:1100px ;
+	height:100%;
+	margin:0;
+	background-color:#BAD3FF;
+}
+
